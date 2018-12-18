@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script>
+		'use strict';
+
+		let styles=['Джаз','Блюз'];
+		console.log(styles);
+		
+		styles.push('Рок-н-Ролл');
+		console.log(styles);
+
+		styles[styles.length-2]='Классика';
+		console.log(styles);
+
+		alert(styles.shift());
+		console.log(styles);
+
+		styles.unshift('Рэп','Регги');
+		console.log(styles);
+	</script>
+	<p>Абзац после скрипта</p>
+</body>
+</html>

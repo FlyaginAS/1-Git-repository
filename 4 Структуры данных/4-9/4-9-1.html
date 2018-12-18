@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script >
+		'use strict';
+		/*let arr = ["Есть", "жизнь", "на", "Марсе"];
+
+		let arrLength = [];
+		for (let i = 0; i < arr.length; i++) {
+			arrLength[i] = arr[i].length;
+		}
+
+		alert( arrLength ); // 4,5,2,5*/
+
+		let arr = ["Есть", "жизнь", "на", "Марсе"];
+		let newArr=[];
+		newArr= arr.map(toLength);
+		function toLength(item) {
+			return item.length;
+		}
+		console.log(newArr);
+
+</script>
+<p>Абзац после скрипта</p>
+</body>
+</html>

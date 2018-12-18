@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script>
+		'use strict';
+
+		function filterRange(arr, a, b) {
+			let array1=[];
+			for(let i=0; i<arr.length; i++) {
+				if(arr[i]>=a && arr[i]<=b) {
+					array1.push(arr[i]);
+				}
+			}
+			return array1;
+		}
+
+		let arr = [5, 4, 3, 8, 0];
+		let filtered = filterRange(arr, 3, 5);
+		console.log(filtered);
+	</script>
+	<p>Абзац после скрипта</p>
+</body>
+</html>

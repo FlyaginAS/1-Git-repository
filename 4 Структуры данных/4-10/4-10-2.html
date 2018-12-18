@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script >
+		'use strict';
+		function sum() {
+			let result=0;
+			for(let i=0; i<arguments.length; i++) {
+				result=result+ arguments[i];
+			}
+			return result;
+		}
+		alert(sum(1,2,3));
+	</script>
+	<p>Абзац после скрипта</p>
+</body>
+</html>

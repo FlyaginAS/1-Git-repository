@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script >
+		'use strict';
+		//использовал код предыдущей задачи :)
+		function getSecondsToday() {
+			let date = new Date();
+			let h=date.getHours();
+			let m=date.getMinutes();
+			let s=date.getSeconds();
+			return h*60*60+m*60+s;
+
+		}
+		function getSecondsToTomorrow(){
+			return 24*3600 - getSecondsToday();
+		}
+		console.log(getSecondsToTomorrow());
+
+</script>
+<p>Абзац после скрипта</p>
+</body>
+</html>

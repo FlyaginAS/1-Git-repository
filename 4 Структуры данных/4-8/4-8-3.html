@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script>
+		'use strict';
+
+		function removeClass(obj, cls) {
+			//разобьем строку на массив
+			let arr=[];
+			let str='';
+			arr=obj.className.split(' ');
+			for(let i=0; i<arr.length; i++) {
+				if(arr[i]!=cls) {
+					str=str + arr[i] + ' ';
+				}
+			}
+			str=str.slice(0, str.length-1);
+			obj.className=str;
+
+		}
+
+		let obj = {
+			className: 'my menu menu'
+		};
+		removeClass(obj, 'menu');
+		alert( obj.className ); // 'my'
+	</script>
+<p>Абзац после скрипта</p>
+</body>
+</html>

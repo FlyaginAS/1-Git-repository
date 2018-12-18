@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script>
+	'use strict';
+
+	function camelize(str) {
+		/*сначала разобьем строку по разделителям-дефисам*/
+		let arr=[];
+		arr=str.split('-');
+		console.log(arr);
+		/*увеличим первые буквы*/
+		let word='';
+		for(let i=1; i<arr.length; i++) {
+			word=arr[i];
+			word=word.charAt(0).toUpperCase() + word.slice(1, word.length);
+			arr[i]=word;
+		}
+		console.log(arr);
+		/*превратим массив в строку*/
+		str=arr.join('');
+		console.log(str);
+		//вернем результат
+		return str;
+	}
+
+ 	console.log(camelize("background-color"));
+</script>
+<p>Абзац после скрипта</p>
+</body>
+</html>

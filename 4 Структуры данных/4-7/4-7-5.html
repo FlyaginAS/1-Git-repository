@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script>
+		'use strict';
+
+		let arr=[];
+		let input=0;
+		while(true) {
+			input=prompt('Введите чило. Для завершения введите пустую строку или отмена или не число','');
+			if(input==='' || input==NaN || input===null) break;
+			arr.push(input);
+		}
+		function sum (array) {
+			let summa=0;
+			for(let i=0; i<array.length; i++) {
+				summa+= Number(array[i]);
+			}
+			return summa;
+		}
+		alert(sum(arr));
+	</script>
+	<p>Абзац после скрипта</p>
+</body>
+</html>

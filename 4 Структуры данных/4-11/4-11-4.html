@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script >
+		'use strict';
+
+		function getDateAgo(d,n) {
+			let newD = new Date(d);
+			newD.setDate(d.getDate() - n);
+			return newD.getDate();
+		}
+		let date = new Date(2015, 0, 2);
+
+		alert( getDateAgo(date, 1) ); // 1, (1 января 2015)
+		alert( getDateAgo(date, 2) ); // 31, (31 декабря 2014)
+		alert( getDateAgo(date, 365) ); // 2, (2 января 2014)
+</script>
+<p>Абзац после скрипта</p>
+</body>
+</html>

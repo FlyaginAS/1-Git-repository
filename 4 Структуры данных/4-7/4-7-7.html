@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script>
+		'use strict';
+
+		function find(arr, value) {
+			for(let i=0; i< arr.length; i++) {
+				if(value===arr[i]) {
+					return i;
+				}
+			}
+			return -1;
+		}
+		let arr = ["test", 2, 1.5, false];
+		console.log(find(arr, true));
+		console.log(find(arr, 2));
+	</script>
+	<p>Абзац после скрипта</p>
+</body>
+</html>

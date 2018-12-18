@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script >
+		'use strict';
+		/*var newArr=[];
+		var arr = [ 1, 2, 3, 4, 5 ];
+		function getSums(sum, item) {
+			newArr.push(sum+item);
+			return sum+ item;
+		}
+		
+		newArr = arr.reduce(getSums,0);
+		alert(newArr);*/
+		function getSums(arr) {
+			let sums=[];
+
+			let lastSum = arr.reduce( function(sum, item){
+				sums.push(sum);
+				sum+=item;
+				return sum;
+			}) ;
+			sums.push(lastSum);
+			return sums;
+		}
+
+		let arr = [1,2,3,4,5];
+		
+		console.log(getSums(arr));
+	</script>
+	<p>Абзац после скрипта</p>
+</body>
+</html>
