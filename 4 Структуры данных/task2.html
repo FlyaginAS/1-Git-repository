@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script >
+		'use strict';
+		/*
+		Напишите функцию styleToObj(str)
+		let str = `position:fixed;border:1px solid red;color: red;`  => {position: 'fixed',border: '1px solid red',color: 'red' }
+		*/
+		function styleToObj(str) {
+			let obj={};
+			//получим строковый массив пар - ключ:значение
+			let keysValues= str.split(';');
+			console.log(keysValues);
+			//начнем присваивать объекту ключи значения в цикле,разрезая строку соответсвенно
+			for(let i=0; i<keysValues.length; i++) {
+				let key=keysValues[i].slice( 0, keysValues[i].indexOf(':') );
+				let value=keysValues[i].slice( keysValues[i].indexOf(':')+1 );
+				obj[key]=value;
+			}
+			return obj;
+		}
+		
+		let string = 'position:fixed;border:1px solid red;color:red';
+		console.log(styleToObj(string));
+	</script>
+<p>Абзац после скрипта</p>
+</body>
+</html>

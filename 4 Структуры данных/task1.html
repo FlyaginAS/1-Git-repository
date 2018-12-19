@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script >
+		/*
+		Напишите функцию deepEqual(obj1, obj2) => deepEqual({a:1, b:{c:2}},{a:1, b:{c:2}}) //true
+		deepEqual({a:1, b:{c:2}, d:1},{a:1, b:{c:2}}) //false
+		Только собственные ключи
+		*/
+		'use strict';
+		function deepEqual(obj1, obj2) {
+			let arr1=[];
+			let arr2=[];
+			let result=true;
+			arr1=Object.keys(obj1);
+			arr2=Object.keys(obj2);
+			//если ключи не совпадают, то уже не равны. Для упрощения предполагаю что порядок ключей в объекте важен.
+			if( arr1.join()!=arr2.join()) return false;
+			//если по ключам прошли, то сравним примитивы, игнорируя объекты
+			for(let i=0; i<arr1.length; i++) {
+				if( (typeof obj1[arr1[i]])!='object' && (typeof obj2[arr1[i]])!='object') {
+					result= obj1[arr1[i]]==obj2[arr1[i]];
+				}
+			}
+			return result;
+			
+		}
+		let object1= {
+			a:1, b:{c:2}
+		};
+		let object2= {
+			a:1, b:{c:3}
+		};
+		let object3= {
+			a:1, b:{c:2}, d:1
+		};
+		console.log('It must be true-->',deepEqual(object1, object2));
+		console.log('It must be false-->',deepEqual(object1, object3));
+	</script>
+	<p>Абзац после скрипта</p>
+</body>
+</html>
