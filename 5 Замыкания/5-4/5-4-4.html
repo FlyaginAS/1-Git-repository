@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script>
+		// Add your code here
+		'use strict'
+		function byField(field) {
+			function func(a,b) {
+				return a[field] > b[field] ? 1 : -1; //скобочная нотация так как доступ к св-ву объекта через переменную
+			}
+			return func;
+		}
+
+		var users = [{
+			name: "Вася",
+			surname: 'Иванов',
+			age: 20
+		}, {
+			name: "Петя",
+			surname: 'Чапаев',
+			age: 25
+		}, {
+			name: "Маша",
+			surname: 'Медведева',
+			age: 18
+		}];
+
+		users.sort(byField('name'));
+		users.forEach(function(user) {
+			alert( user.name );
+		}); // Вася, Маша, Петя
+
+		users.sort(byField('age'));
+		users.forEach(function(user) {
+			alert( user.name );
+		}); // Маша, Вася, Петя
+</script>
+<p>Абзац после скрипта</p>
+</body>
+</html>

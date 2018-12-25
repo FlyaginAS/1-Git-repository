@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script>
+		// Add your code here
+		'use strict'
+		function filter(arr, func) {
+			return arr.filter(func);//берем массив, фильтруем по коду ф-ии func, возвращаем filtered массив
+		}
+		function inBetween(a,b) {
+			return function(item){
+				return item>=a && item<=b;
+			};
+		}
+		function inArray(array) {
+			return function(item) {
+				return array.indexOf(item)>=0;
+			};
+		}
+		/* .. ваш код для filter, inBetween, inArray */
+		var arr = [1, 2, 3, 4, 5, 6, 7];
+
+		alert(filter(arr, function(a) {
+			return a % 2 == 0
+		})); // 2,4,6
+
+		alert( filter(arr, inBetween(3, 6)) ); // 3,4,5,6
+
+		alert( filter(arr, inArray([1, 2, 10])) ); // 1,2
+
+</script>
+<p>Абзац после скрипта</p>
+</body>
+</html>

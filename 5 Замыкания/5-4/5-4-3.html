@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<!-- By Flyagin Alexander -->
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Абзац до скрипта</p>
+	<script>
+		// Add your code here
+		
+		'use strict';
+		function makeBuffer() {
+			let bufferLocal='';
+			function f(str) {
+				if(arguments.length==0) {
+					return bufferLocal;
+				} else {
+					bufferLocal+=str;
+				}
+			}
+
+			f.clear= function(){
+				bufferLocal='';
+			}
+
+			return f;
+
+			
+		}
+		let  buffer = makeBuffer();
+
+		buffer("Тест");
+		buffer(" тебя не съест ");
+		alert( buffer() ); // Тест тебя не съест
+
+		buffer.clear();
+		alert('after clear');
+		alert( buffer() ); // ""
+		
+	</script>
+	<p>Абзац после скрипта</p>
+</body>
+</html>
