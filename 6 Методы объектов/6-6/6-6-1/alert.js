@@ -1,23 +1,9 @@
 "use strict";
-
-function Article() {
-    this.created = new Date();
-
-    Article.count++; // увеличиваем счетчик при каждом вызове
-    Article.last = this.created; // и запоминаем дату
+function sumArgs() {
+    let f= function (a, b) {
+        return a+b;
+    }
+    let arr= [].slice.call(arguments);
+    return arr.reduce(f);
 }
-Article.count = 0; // начальное значение
-// (нельзя оставить undefined, т.к. Article.count++ будет NaN)
-
-Article.showStats = function() {
-    alert( 'Всего: ' + Article.count + ', Последняя: ' + Article.last );
-};
-
-new Article();
-new Article();
-
-Article.showStats(); // Всего: 2, Последняя: (дата)
-
-new Article();
-
-Article.showStats(); // Всего: 3, Последняя: (дата)
+alert( sumArgs(1, 2, 3) ); // 6, аргументы переданы через запятую, без массива
