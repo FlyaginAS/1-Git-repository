@@ -1,5 +1,5 @@
 'use strict'
-var table = document.body.children[0];
+let table = document.body.children[0];
 
 /* ваш код */
 for (let i=0; i<table.children.length; i++){
