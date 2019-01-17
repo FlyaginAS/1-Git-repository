@@ -1,0 +1,69 @@
+.arrow {
+    padding: 0;
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+}
+
+.arrow:focus {
+    outline: none;
+}
+
+.arrow:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+ul {
+    height: 130px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* убрать между inline-block li лишние пробелы, которые есть в HTML */
+    /* http://davidwalsh.name/remove-whitespace-inline-block */
+
+    font-size: 0;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+ul img {
+    width: 130px;
+    height: 130px;
+    /* по умолчанию inline, но в ряде браузеров это даст лишнее пространство вокруг элементов */
+
+    display: block;
+}
+
+ul li {
+    /* если в HTML между элементами <li>..</li> есть пробелы, то они будут видны на странице,
+    чтобы их избежать, нужно либо писать <li>..</li><li>..</li> вплотную, либо не ставить закрывающие </li> */
+
+    display: inline-block;
+}
+/*--------------------------------------------------*/
+.container {
+    background-color: lightyellow;
+    border: 5px solid dimgrey;
+    box-sizing: border-box;
+    width:455px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+
+}
+.container button:nth-child(2) {
+      position: absolute;
+      top: 80px;
+      left: 10px;
+  }
+.container button:nth-child(3) {
+    position: absolute;
+    top: 80px;
+    right: 5px;
+}
