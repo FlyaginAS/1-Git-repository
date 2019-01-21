@@ -2,17 +2,22 @@
 /*
 
 */
-let ul = document.querySelector('ul');
-let left=document.querySelector('.container button:nth-child(2) ');
-let right = document.querySelector('.container button:nth-child(3) ');
-//console.log(ul, left, right);
-left.addEventListener('onclick', moveLeft);
-right.addEventListener('onclick', moveRight);
+let width = 130; // ширина изображения
+let count = 3;   // количество изображений
+let carousel = document.querySelector('#carousel');
+let list = document.querySelector('ul');
+let listElems = carousel.querySelectorAll('li');
+let position = 0; // текущий сдвиг влево
 
-
-function moveLeft() {
-    ul.style.transform='translate(-350px)';
-}
-function moveRight() {
-    ul.style.transform='translate(350px)';
-}
+carousel.querySelector('.prev').onclick= function () {
+    // сдвиг влево
+    // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
+    position = Math.min(position + width * count, 0);
+    list.style.marginLeft = position + 'px';
+};
+carousel.querySelector('.next').onclick = function() {
+    // сдвиг вправо
+    // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
+    position = Math.max(position - width * count, -width * (listElems.length - count));
+    list.style.marginLeft = position + 'px';
+};
