@@ -1,3 +1,5 @@
 "use strict";
 
-неясно
+function applyAll(func, ...rest) {
+    return func.apply(null, rest);
+}
