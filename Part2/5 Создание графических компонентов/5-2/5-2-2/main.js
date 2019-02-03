@@ -1,4 +1,7 @@
 'use strict';
+/*
+
+*/
 setInterval(clock,  1000);
 function clock(){
     let date= new Date();
@@ -18,4 +21,5 @@ function innHtml(h,m,s) {
     htmlM.innerHTML=`${m}`;
     htmlS.innerHTML=`${s}`;
 }
+////////////////////////////////////////////////////////////////////////////
 
