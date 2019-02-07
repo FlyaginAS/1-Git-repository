@@ -1,0 +1,12 @@
+.clock__h{
+    color:red;
+}
+.clock__m {
+    color:green;
+}
+.clock__s {
+    color: blue;
+}
+button {
+    margin-right: 10px;
+}
