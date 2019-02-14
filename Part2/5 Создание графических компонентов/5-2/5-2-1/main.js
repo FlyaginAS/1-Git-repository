@@ -6,27 +6,26 @@ class Clock {
     constructor(obj){
         this.elem= obj.elem;
         this._timeId=null;
+        this._render();
+    }
+
+    start() {
+        this._timeId = setInterval(this._setClock.bind(this),  1000);
+    }
+    stop(){
+        clearInterval(this._timeId);
+    }
+    _render(){
         let that=this;
         this.elem.innerHTML=`
         <span class="clock__h">00</span>:<span class="clock__m">00</span>:<span class="clock__s">00</span>
         <p><button class="but-start">Старт</button><button class="but-stop">Стоп</button><button class="but-alert">Алерт</button></p>
         `;
         this.elem.addEventListener('click', function (event) {
-            if(event.target.closest('.but-start')) {
-                that.start();
-            } else if (event.target.closest('.but-stop')){
-                that.stop();
-            } else if(event.target.closest('.but-alert')){
-                Clock.alert();
-            }
+            (event.target.closest('.but-start')) ?  that.start() :
+                (event.target.closest('.but-stop')) ? that.stop() :
+                    (event.target.closest('.but-alert')) ?  Clock.alert() : ()=>{}
         });
-    }
-    start() {
-        let th=this;
-        this._timeId = setInterval(this._setClock.bind(th),  1000);
-    }
-    stop(){
-        clearInterval(this._timeId);
     }
     static alert(){
         alert('Время после закрытия должно идти верное без сдвига');
