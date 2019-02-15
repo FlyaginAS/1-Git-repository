@@ -10,7 +10,7 @@ field.onclick= function (event) {
     let fieldCoords = this.getBoundingClientRect();
     // координаты левого-верхнего внутреннего угла поля
     let fieldInnerCoords = {
-        top: fieldCoords.top +field.clientTop,
+        top: fieldCoords.top +field.clientTop,// координаты верха поля плюс бордер
         left: fieldCoords.left + field.clientLeft
     };
     // разместить по клику,

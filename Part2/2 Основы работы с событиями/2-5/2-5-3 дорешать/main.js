@@ -2,39 +2,29 @@
 /*
 
 */
-let field = document.querySelector('field');
-let ball = document.querySelector('ball');
+let table = document.querySelector('#grid');
+let tbody = table.querySelector('tbody');
+let rows= [...tbody.querySelectorAll('tr')];
+table.addEventListener('click', function (event) {
+    // if(event.target.getAttribute('data-type')=='number') {
+    //     rows.sort( function (a, b) {
+    //         console.log(a.firstElementChild);
+    //         return Number(a.firstElementChild.innerHTML)-Number(b.firstElementChild.innerHTML);
+    //     })
+    //     rows.forEach(function (item) {
+    //         tbody.appendChild(item);
+    //     });
+    //
+    // }
 
-field.onclick= function (event) {
-    // координаты поля относительно окна
-    let fieldCoords = this.getBoundingClientRect();
-    // координаты левого-верхнего внутреннего угла поля
-    let fieldInnerCoords = {
-        top: fieldCoords.top +field.clientTop,
-        left: fieldCoords.left + field.clientLeft
-    };
-    // разместить по клику,
-    // но сдвинув относительно поля (т.к. position:relative)
-    // и сдвинув на половину ширины/высоты
-    // (!) используются координаты относительно окна clientX/Y, как и в fieldCoords
-    let ballCoords = {
-        top: event.clientY - fieldInnerCoords.top - ball.clientHeight / 2,
-        left: event.clientX - fieldInnerCoords.left - ball.clientWidth / 2
-    };
-    // вылезает за верхнюю границу - разместить по ней
-    if (ballCoords.top < 0) ballCoords.top = 0;
+    if(event.target.getAttribute('data-type')=='string') {
+        rows.sort( function (a, b) {
+            console.log(a.lastElementChild);
+            return a.lastElementChild.innerHTML > b.lastElementChild.innerHTML;
+        })
+        rows.forEach(function (item) {
+            tbody.appendChild(item);
+        });
 
-    // вылезает за левую границу - разместить по ней
-    if (ballCoords.left < 0) ballCoords.left = 0;
-    // вылезает за правую границу - разместить по ней
-    if (ballCoords.left + ball.clientWidth > field.clientWidth) {
-        ballCoords.left = field.clientWidth - ball.clientWidth;
     }
-
-    // вылезает за нижнюю границу - разместить по ней
-    if (ballCoords.top + ball.clientHeight > field.clientHeight) {
-        ballCoords.top = field.clientHeight - ball.clientHeight;
-    }
-    ball.style.left = ballCoords.left + 'px';
-    ball.style.top = ballCoords.top + 'px';
-};
+});

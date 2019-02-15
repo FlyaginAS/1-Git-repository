@@ -71,65 +71,67 @@
 ////////////////////////////////////////////////////////////////////////
 class Slider {
     constructor(options){
-        this.elem = options.elem;
-        this.thumbElem = this.elem.querySelector('.thumb');
+        this._elem = options.elem;
+        this._thumbElem = this._elem.querySelector('.thumb');
 
-        this.sliderCoords, this.thumbCoords, this.shiftX, this.shiftY;
+        this._sliderCoords, this._thumbCoords, this._shiftX, this._shiftY;
 
-        this.elem.ondragstart = function() {
+        this._elem.ondragstart = function() {
             return false;
         };
         let that=this;
-        this.elem.onmousedown = function(event) {
+        this._elem.onmousedown = function(event) {
             if (event.target.closest('.thumb')) {
-                that.startDrag(event.clientX, event.clientY);
+                that._startDrag(event.clientX, event.clientY);
                 return false; // disable selection start (cursor change)
             }
         };
     }
-   startDrag(startClientX, startClientY) {
+   _startDrag(startClientX, startClientY) {
        let that=this;
-        this.thumbCoords = this.thumbElem.getBoundingClientRect();
-       this.shiftX = startClientX - this.thumbCoords.left;
-       this.shiftY = startClientY - this.thumbCoords.top;
+        this._thumbCoords = this._thumbElem.getBoundingClientRect();
+       this._shiftX = startClientX - this._thumbCoords.left;
+       this._shiftY = startClientY - this._thumbCoords.top;
 
-       this.sliderCoords = this.elem.getBoundingClientRect();
+       this.sliderCoords = this._elem.getBoundingClientRect();
 
-        document.addEventListener('mousemove', that.onDocumentMouseMove);
-        document.addEventListener('mouseup', that.onDocumentMouseUp);
+        document.addEventListener('mousemove', that._onDocumentMouseMove);
+        document.addEventListener('mouseup', that._onDocumentMouseUp);
     }
 
 
 
-    moveTo(clientX) {
+    _moveTo(clientX) {
         // вычесть координату родителя, т.к. position: relative
-        let newLeft = clientX - this.shiftX - this.sliderCoords.left;
+        let newLeft = clientX - this._shiftX - this._sliderCoords.left;
 
         // курсор ушёл вне слайдера
         if (newLeft < 0) {
             newLeft = 0;
         }
-        let rightEdge = this.elem.offsetWidth - this.thumbElem.offsetWidth;
+        let rightEdge = this._elem.offsetWidth - this._thumbElem.offsetWidth;
         if (newLeft > rightEdge) {
             newLeft = rightEdge;
         }
 
-        this.thumbElem.style.left = newLeft + 'px';
+        this._thumbElem.style.left = newLeft + 'px';
     }
 
 
-    onDocumentMouseMove(e) {
-        this.moveTo(e.clientX);
+    _onDocumentMouseMove(e) {
+        let that=this;
+        that._moveTo(e.clientX);
     }
 
-    onDocumentMouseUp() {
-        this.endDrag();
+    _onDocumentMouseUp() {
+        let that=this;
+        that._endDrag();
     }
 
 
-    endDrag() {
-        document.removeEventListener('mousemove', onDocumentMouseMove);
-        document.removeEventListener('mouseup', onDocumentMouseUp);
+    _endDrag() {
+        document.removeEventListener('mousemove', this._onDocumentMouseMove);
+        document.removeEventListener('mouseup', this._onDocumentMouseUp);
     }
 }
 

@@ -1,0 +1,4 @@
+.up, .down {
+    background-color: red;
+    cursor: pointer;
+}
