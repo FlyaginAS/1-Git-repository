@@ -11,7 +11,9 @@ class Vouter {
     }
     _addListener(){
         this._root.onmousedown=()=>false;
+
         this._root.addEventListener('click', (event)=>{
+            //event.preventDefault();
             if(event.target.closest('.down')) {
                 this._voute--;
             } else if (event.target.closest('.up')) {

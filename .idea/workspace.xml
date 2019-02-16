@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="819efd5e-bd03-48a5-833e-82a541cf49d9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/trenya/module1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trenya/module2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/1 Документ и объекты страницы/1-12/1-12-2 дорешать/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/1 Документ и объекты страницы/1-12/1-12-2 дорешать/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/1 Документ и объекты страницы/1-12/1-12-2 дорешать/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/1 Документ и объекты страницы/1-12/1-12-2 дорешать/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-1/2-2-5/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-1/2-2-5/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-1/2-2-5/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-1/2-2-5/alert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-3/2-3-1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-3/2-3-1/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-5/2-5-3 дорешать/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-5/2-5-3 дорешать/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-5/2-5-3 дорешать/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-5/2-5-3 дорешать/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-5/2-5-3 дорешать/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-5/2-5-3 дорешать/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-2/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trenya/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/trenya/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trenya/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/trenya/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-6/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-6/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-6/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/2/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -44,8 +34,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="88">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -53,8 +43,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state>
+              <caret selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -84,12 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/9 ООП в прототипном стиле/9-1/9-1-3/main.js" />
-        <option value="$PROJECT_DIR$/9 ООП в прототипном стиле/9-2/9-2-2/main.js" />
-        <option value="$PROJECT_DIR$/9 ООП в прототипном стиле/9-2/9-2-1/main.js" />
-        <option value="$PROJECT_DIR$/9 ООП в прототипном стиле/9-2/9-2-3/main.js" />
-        <option value="$PROJECT_DIR$/9 ООП в прототипном стиле/9-2/9-2-4/main.js" />
-        <option value="$PROJECT_DIR$/9 ООП в прототипном стиле/9-3/9-3-1/main.js" />
         <option value="$PROJECT_DIR$/9 ООП в прототипном стиле/9-3/9-3-2/main.js" />
         <option value="$PROJECT_DIR$/9 ООП в прототипном стиле/9-4/9-4-1/main.js" />
         <option value="$PROJECT_DIR$/9 ООП в прототипном стиле/9-4/9-4-2/main.js" />
@@ -135,6 +119,12 @@
         <option value="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/style.css" />
         <option value="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/index.html" />
         <option value="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/main.js" />
+        <option value="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-6/index.html" />
+        <option value="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-6/style.css" />
+        <option value="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-6/main.js" />
+        <option value="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-5/5-5-1/main.js" />
+        <option value="$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/2/index.html" />
+        <option value="$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/2/main.js" />
       </list>
     </option>
   </component>
@@ -197,6 +187,21 @@
             <path>
               <item name="1 Git repository" type="b2602c69:ProjectViewProjectNode" />
               <item name="1 Git repository" type="462c0819:PsiDirectoryNode" />
+              <item name="Part2" type="462c0819:PsiDirectoryNode" />
+              <item name="5 Создание графических компонентов" type="462c0819:PsiDirectoryNode" />
+              <item name="lection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1 Git repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1 Git repository" type="462c0819:PsiDirectoryNode" />
+              <item name="Part2" type="462c0819:PsiDirectoryNode" />
+              <item name="5 Создание графических компонентов" type="462c0819:PsiDirectoryNode" />
+              <item name="lection" type="462c0819:PsiDirectoryNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1 Git repository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1 Git repository" type="462c0819:PsiDirectoryNode" />
               <item name="trenya" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -231,26 +236,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/1 Git repository/Part2/5 Создание графических компонентов/5-2/5-2-4/index.html" />
-    <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/1 Git repository/Part2/2 Основы работы с событиями/2-5/2-5-3 дорешать/index.html" />
-    <configuration name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/1 Git repository/Part2/5 Создание графических компонентов/lection/1/index.html" />
-    <configuration name="index.html (5)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/1 Git repository/Part2/5 Создание графических компонентов/5-2/5-2-2/index.html" />
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/1 Git repository/Part2/5 Создание графических компонентов/5-2/5-2-3/index.html" />
+    <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/1 Git repository/Part2/5 Создание графических компонентов/5-2/5-2-6/index.html" />
+    <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/1 Git repository/Part2/5 Создание графических компонентов/5-5/5-5-1/index.html" />
+    <configuration name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/1 Git repository/Part2/5 Создание графических компонентов/lection/2/index.html" />
+    <configuration name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-5/5-5-1" />
     <list>
-      <item itemvalue="JavaScript Debug.index.html (3)" />
-      <item itemvalue="JavaScript Debug.index.html (4)" />
-      <item itemvalue="JavaScript Debug.index.html (5)" />
-      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="JavaScript Debug.index.html (2)" />
+      <item itemvalue="JavaScript Debug.index.html (3)" />
+      <item itemvalue="Node.js.main.js" />
+      <item itemvalue="JavaScript Debug.index.html (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.index.html (5)" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -301,18 +306,18 @@
       <workItem from="1550036704770" duration="1961000" />
       <workItem from="1550118141066" duration="12776000" />
       <workItem from="1550148393796" duration="7233000" />
-      <workItem from="1550210113277" duration="8211000" />
+      <workItem from="1550210113277" duration="15881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342277000" />
+    <option name="totallyTimeSpent" value="349947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-396" width="1096" height="1906" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2741021" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2741021" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -321,7 +326,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32884097" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.05316742" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.05316742" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -338,32 +343,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Part2/1 Документ и объекты страницы/1-14/1-14-1/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part2/1 Документ и объекты страницы/1-14/1-14-1/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part2/1 Документ и объекты страницы/1-14/1-14-1/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part2/1 Документ и объекты страницы/1-14/1-14-2/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part2/1 Документ и объекты страницы/1-14/1-14-2/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part2/1 Документ и объекты страницы/1-14/1-14-2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Part2/2 Основы работы с событиями/2-1/2-2-1/alert.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -518,15 +497,6 @@
     <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/1/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/2/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/2/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/2/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -582,24 +552,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-6/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-6/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-5/5-5-1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-5/5-5-1/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-5/5-5-1/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/2/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/lection/2/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state>
+          <caret selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-4/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="88">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
