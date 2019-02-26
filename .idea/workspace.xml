@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="819efd5e-bd03-48a5-833e-82a541cf49d9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-3/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-teor/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-2/5-2-teor/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-5/5-5-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-5/5-5-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-5/5-5-1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-5/5-5-1/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-5/5-5-1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Part2/5 Создание графических компонентов/5-5/5-5-1/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/10 Современные возможности ES-2015/10-11/10-11-2/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -288,15 +283,16 @@
       <workItem from="1550561279237" duration="7268000" />
       <workItem from="1550577343123" duration="2445000" />
       <workItem from="1550645731688" duration="9155000" />
+      <workItem from="1550726443751" duration="670000" />
+      <workItem from="1551172313439" duration="54000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370176000" />
+    <option name="totallyTimeSpent" value="370900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-396" width="1096" height="1906" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2741021" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -307,7 +303,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32884097" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.05316742" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.05316742" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -618,7 +614,7 @@
     <entry file="file://$PROJECT_DIR$/10 Современные возможности ES-2015/10-11/10-11-2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
