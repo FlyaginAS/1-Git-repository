@@ -9,9 +9,11 @@
 	<script>
 		// Add your code here
 		'use strict';
-
-		let goods=[0,1,2,3,4,5];
-		console.log('The last item of goods is ' + goods[goods.length-1]);
+		let arr = ["Есть", "жизнь", "на", "Марсе"];
+		let arr2 =arr.map((item)=>{
+           return item.length;
+        });
+		console.log(arr2);
 	</script>
 	<p>Абзац после скрипта</p>
 </body>
