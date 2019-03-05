@@ -1,4 +1,24 @@
-'use strict'
-let div = document.querySelector('div');
-let attr= div.getAttribute('data-widget-name');
-console.log(attr);
+'use strict';
+let data = {
+    "Рыбы": {
+        "Форель": {},
+        "Щука": {}
+    },
+
+    "Деревья": {
+        "Хвойные": {
+            "Лиственница": {},
+            "Ель": {}
+        },
+        "Цветковые": {
+            "Берёза": {},
+            "Тополь": {}
+        }
+    }
+};
+
+function createLi(obj) {
+    for(let key in obj) {
+        obj.
+    }
+}

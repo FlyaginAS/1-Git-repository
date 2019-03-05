@@ -2,8 +2,8 @@
 /*
 
 */
-let field = document.querySelector('field');
-let ball = document.querySelector('ball');
+let field = document.querySelector('#field');
+let ball = document.querySelector('#ball');
 
 field.onclick= function (event) {
     // координаты поля относительно окна

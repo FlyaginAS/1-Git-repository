@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 function createTree(container, obj){
   container.appendChild(createTreeDom(obj));
 }

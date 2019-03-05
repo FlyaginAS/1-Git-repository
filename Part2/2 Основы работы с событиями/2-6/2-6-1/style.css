@@ -1,0 +1,10 @@
+body {
+    height: 2000px;
+    /* подсказка должна работать независимо от прокрутки */
+}
+div {
+    border: 1px solid red;
+    background-color: yellow;
+    width: 100px;
+    height: 20px;
+}

@@ -1,0 +1,6 @@
+span:hover {
+    font-weight: bold;
+}
+.close>ul {
+    display:none;
+}

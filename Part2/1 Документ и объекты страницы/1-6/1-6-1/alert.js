@@ -1,22 +1,14 @@
 'use strict';
 
-/*
-*
-* Что выведет следующий код (простой вопрос)?
-var lis = document.body.getElementsByTagName('li');
-
-document.body.innerHTML = "";
-
-alert( lis.length );*/
-//0 коллекция поддерживает актуальное сосотояние
-
-/*
-*А такой код (вопрос посложнее)?
-var menu = document.getElementById('menu');
-var lis = menu.getElementsByTagName('li');
-
-document.body.innerHTML = "";
-
-alert( lis.length );
-* */
-//скорее 3
+let body = document.body;
+body.innerHTML='<ul>немаркированный список<li>1</li></ul>';
+let ul = body.querySelector('ul');
+ul.firstChild.data='blablalba';
+ul.hidden=false;
+ul.setAttribute('class', 'menu red');
+let attr = [...ul.attributes];
+console.log(attr);
+console.log(ul.classList);
+for(let clas of  ul.classList) {
+    console.log(clas);
+}
